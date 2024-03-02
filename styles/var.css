@@ -1,0 +1,20 @@
+:root {
+  --main-color: #fff;
+  --color-cobalt: #15a9cb; 
+  --color-cobalt-light: #23c7ec; 
+  --bg-opacity: linear-gradient(rgba(47, 50, 75, .85), rgba(47, 50, 75, .85));
+}
+
+.header {
+  --color-title: rgba(255, 255, 255, .86);
+  --color-subtitle: rgba(255, 255, 255, .75);
+}
+
+.about {
+  --main-color: #383a4c;
+  --main-bg-color: #f9f9f9;
+}
+
+.footer {
+  --main-bg-color: #2f324b;
+}
