@@ -42,7 +42,7 @@
     <main>
 
       <section id="about" class="about">
-        <div class="container">
+        <div class="container about__container">
           <h2 class="about__title">Уникальный заголовок для преимущества компании</h2>
           <h3 class="about__subtitle">О нас</h3>
           <p class="about__text">
@@ -50,24 +50,40 @@
             вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, 
             а начинающему оратору отточить.
           </p>
-          <ul class="about__list">
-            <li class="about__item">
-              <div class="about__circle"><span class="about__number">1</span></div>
-              <p class="about__description">Первое целевое преимущество</p>
-            </li>
-            <li class="about__item">
-              <div class="about__circle"><span class="about__number">2</span></div>
-              <p class="about__description">Второе целевое преимущество</p>
-            </li>
-            <li class="about__item">
-              <div class="about__circle"><span class="about__number">3</span></div>
-              <p class="about__description">Третье целевое преимущество</p>
-            </li>
-            <li class="about__item">
-              <div class="about__circle"><span class="about__number">4</span></div>
-              <p class="about__description">Четвертое целевое преимущество</p>
-            </li>
-          </ul>
+
+
+          <input class="about__input about__input1" type="radio" name="slider" id="slide1" checked>
+          <input class="about__input about__input2" type="radio" name="slider" id="slide2">
+          <input class="about__input about__input3" type="radio" name="slider" id="slide3">
+          <input class="about__input about__input4" type="radio" name="slider" id="slide4">
+
+          <div class="about__sliders">
+            <ul class="about__list">
+              <li class="about__item">
+                <div class="about__circle"><span class="about__number">1</span></div>
+                <p class="about__description">Первое целевое преимущество</p>
+              </li>
+              <li class="about__item">
+                <div class="about__circle"><span class="about__number">2</span></div>
+                <p class="about__description">Второе целевое преимущество</p>
+              </li>
+              <li class="about__item">
+                <div class="about__circle"><span class="about__number">3</span></div>
+                <p class="about__description">Третье целевое преимущество</p>
+              </li>
+              <li class="about__item">
+                <div class="about__circle"><span class="about__number">4</span></div>
+                <p class="about__description">Четвертое целевое преимущество</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="about__controls">
+            <label class="about__label" for="slide1"></label>
+            <label class="about__label" for="slide2"></label>
+            <label class="about__label" for="slide3"></label>
+            <label class="about__label" for="slide4"></label>
+          </div>
         </div>
       </section>
 
