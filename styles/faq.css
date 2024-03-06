@@ -40,7 +40,9 @@
 }
 
 .form__list {
-  margin-bottom: 50px;
+  margin: 0 0 50px;
+  padding: 0;
+  border: none;
 }
 
 .form__button {
@@ -56,20 +58,12 @@
   border-bottom: 1px solid #4a76a8;
 }
 
-.form__label {
-  position: relative;
+.form__text {
   text-align: center;
   font-size: 20px;
+  margin: 0;
 }
 
-.form__checkbox {
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
 
 
 
@@ -97,7 +91,7 @@
     margin-bottom: 30px;
   }
 
-  .form__label {
+  .form__text {
     font-size: 17px;
   }
 }
@@ -118,7 +112,7 @@
     padding: 10px 34px;
   }
 
-  .form__label {
+  .form__text {
     font-size: 15px;
   }
 
@@ -162,7 +156,7 @@
     padding: 10px 31px;
   }
 
-  .form__label {
+  .form__text {
     font-size: 11px;
   }
 }

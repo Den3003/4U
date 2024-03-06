@@ -24,7 +24,7 @@
   color: inherit;
 }
 
-.contacts__icon {
+.contacts-phone__icon {
   display: none;
 }
 
@@ -58,6 +58,13 @@
 }
 
 
+@media (max-width: 650px) {
+  .contacts__phone {
+    margin-bottom: 25px;
+  }
+}
+
+
 @media (max-width: 560px) {
   .contacts__logo {
     max-width: 40px;
@@ -78,11 +85,15 @@
     max-width: 30px;
   }
 
-  .contacts-phone {
+  .contacts-phone__number {
     display: none;
   }
 
-  .contacts__icon {
+  .contacts-phone__link {
+    display: none;
+  }
+
+  .contacts-phone__icon {
   display: block;
   }
 }

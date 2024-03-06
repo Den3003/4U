@@ -44,19 +44,13 @@ html {
 }
 
 body {
+  min-width: 320px;
+  min-height: 100vh;
   font-family: Roboto, sans-serif;
   background-color: var(--main-bg-color);
   color: var(--main-color);
   margin: 0;
 }
-
-.wrapper {
-  max-width: 1600px;
-  min-width: 320px;
-  min-height: 100vh;
-  margin: 0 auto;
-}
-
 
 .container {
   max-width: 1260px;
