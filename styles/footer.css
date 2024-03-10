@@ -41,6 +41,7 @@
 @media (max-width: 650px) {
   .footer {
     padding: 25px 0 0;
+    background: linear-gradient(#2F324B 62%, #2A2C3F 0);
   }
 
   .footer__contacts {
@@ -48,13 +49,18 @@
   }
 
   .footer__develop {
-    width: 100%;
+    flex-basis: 100%;
     text-align: center;
     padding: 15px 0;
     order: 1;
+    opacity: .5;
   }
 
   .footer__left {
+    margin-bottom: 25px;
+  }
+
+  .footer__phone {
     margin-bottom: 25px;
   }
 

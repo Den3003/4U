@@ -38,7 +38,18 @@
   background-color: var(--color-cobalt);
   padding: 12.5px 48px;
   box-shadow: 0 4px 25px 0 rgba(21, 169, 203, 0.3);
+  outline: none;
+  transition: background-color .3s ease-in;
 }
+
+.button:hover, .button:focus {
+  background-color: #147b92;
+}
+
+.button:active {
+  background-color: #105c6d;
+}
+
 
 @media (max-width: 1080px) {
   .header {
@@ -128,8 +139,12 @@
   }
 
   .header__subtitle {
+    overflow: hidden;
     max-width: 280px;
     margin-bottom: 55px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
   }
 
   .button {
