@@ -11,17 +11,20 @@
 }
 
 .contacts-phone__tel {
-  font-size: 23px;
-  text-decoration: none;
+  font-size: 23.85px;
+  line-height: 1.192;
   color: inherit;
-  margin-bottom: 3px;
+  text-decoration: none;
+  margin-bottom: 4px;
 }
 
 .contacts-phone__link {
   max-width: max-content;
+  line-height: 1.188;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   text-decoration: none;
   color: inherit;
+  
 }
 
 .contacts-phone__icon {
@@ -33,17 +36,19 @@
     max-width: 60px;
   }
 
+  .contacts-phone {
+    padding-right: 2px;
+  }
+
   .contacts-phone__tel {
     font-size: 21px;
+    margin-bottom: 8px;
   }
 
   .contacts-phone__link {
     font-size: 13px;
   }
 
-  .contacts-phone__tel {
-    margin-bottom: 4px;
-  }
 }
 
 
@@ -85,6 +90,14 @@
     max-width: 30px;
   }
 
+  .contacts-phone {
+    padding: 0;
+  }
+
+  .contacts-phone__tel {
+    margin: 0;
+  }
+
   .contacts-phone__number {
     display: none;
   }
@@ -94,6 +107,6 @@
   }
 
   .contacts-phone__icon {
-  display: block;
+    display: block;
   }
 }
