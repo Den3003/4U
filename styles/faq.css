@@ -61,6 +61,15 @@
   text-decoration: none;
   color: #4a76a8;
   border-bottom: 1px solid #4a76a8;
+  transition: color .3s ease-in;
+}
+
+.form__link:hover, .form__link:focus {
+  color: #5b95d8;
+}
+
+.form__link:active {
+  color: #aac5e4;
 }
 
 .form__text {

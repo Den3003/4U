@@ -14,8 +14,17 @@
   font-size: 23.85px;
   line-height: 1.192;
   color: inherit;
-  text-decoration: none;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
+  transition: color .3s ease-in;
+  outline: none;
+}
+
+.contacts-phone__tel:hover, .contacts-phone__tel:focus {
+  color: #14b5da;
+}
+
+.contacts-phone__tel:active {
+  color: #0f758b;
 }
 
 .contacts-phone__link {
@@ -24,7 +33,18 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   text-decoration: none;
   color: inherit;
-  
+  outline: none;
+  transition: color .3s ease-in, border-color .3s ease-in;
+}
+
+.contacts-phone__link:hover, .contacts-phone__link:focus {
+  color: #14b5da;
+  border-color: #14b5da;
+}
+
+.contacts-phone__link:active {
+  color: #0f758b;
+  border-color: #0f758b;
 }
 
 .contacts-phone__icon {
@@ -63,13 +83,6 @@
 }
 
 
-@media (max-width: 650px) {
-  .contacts__phone {
-    margin-bottom: 25px;
-  }
-}
-
-
 @media (max-width: 560px) {
   .contacts__logo {
     max-width: 40px;
@@ -88,10 +101,6 @@
 @media (max-width: 470px) {
   .contacts__logo {
     max-width: 30px;
-  }
-
-  .contacts-phone {
-    padding: 0;
   }
 
   .contacts-phone__tel {
