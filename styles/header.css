@@ -153,8 +153,13 @@
   }
 
   .header__subtitle {
+    line-height: 19px;
+    overflow: hidden;
     max-width: 280px;
-    margin-bottom: 55px;
+    margin-bottom: 54px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
   }
 
   .button {
